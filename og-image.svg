@@ -1,0 +1,53 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="mark" x1="0" y1="0" x2="120" y2="120" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#7C3AED"/>
+      <stop offset="1" stop-color="#F0526B"/>
+    </linearGradient>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F5F1FF"/>
+      <stop offset="1" stop-color="#FFFFFF"/>
+    </linearGradient>
+    <linearGradient id="word" x1="0" y1="0" x2="600" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#7C3AED"/>
+      <stop offset="1" stop-color="#F0526B"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- mark -->
+  <g transform="translate(100,132)">
+    <rect width="120" height="120" rx="30" fill="url(#mark)"/>
+    <path d="M34 38h52a7.5 7.5 0 0 1 7.5 7.5v26A7.5 7.5 0 0 1 86 79H56l-15 13v-13h-7a7.5 7.5 0 0 1-7.5-7.5V45.5A7.5 7.5 0 0 1 34 38Z" fill="#ffffff"/>
+    <path d="M49 59l7.5 7.5 15-15" fill="none" stroke="#7C3AED" stroke-width="6.4" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- wordmark -->
+  <text x="248" y="222" font-family="DM Sans, Segoe UI, sans-serif" font-size="88" font-weight="700" letter-spacing="-4" fill="#1A1330">uhmmly</text>
+
+  <!-- tagline -->
+  <text x="102" y="360" font-family="DM Sans, Segoe UI, sans-serif" font-size="52" font-weight="700" letter-spacing="-1.5" fill="#1A1330">Talk privately with strangers</text>
+  <text x="102" y="428" font-family="DM Sans, Segoe UI, sans-serif" font-size="52" font-weight="700" letter-spacing="-1.5" fill="#1A1330">you met <tspan fill="url(#word)">online</tspan>.</text>
+
+  <!-- verified chips -->
+  <g font-family="DM Sans, Segoe UI, sans-serif" font-size="24" font-weight="600">
+    <g transform="translate(102,478)">
+      <rect width="196" height="46" rx="23" fill="#F0FDF4" stroke="#BBF7D0"/>
+      <text x="26" y="30" fill="#15803D">✓ Live human</text>
+    </g>
+    <g transform="translate(314,478)">
+      <rect width="132" height="46" rx="23" fill="#F0FDF4" stroke="#BBF7D0"/>
+      <text x="26" y="30" fill="#15803D">✓ Age</text>
+    </g>
+    <g transform="translate(462,478)">
+      <rect width="240" height="46" rx="23" fill="#F5F1FF" stroke="#D6CFE4"/>
+      <text x="26" y="30" fill="#5B21B6">◎ Verified location</text>
+    </g>
+  </g>
+
+  <!-- footer strip -->
+  <rect x="0" y="580" width="1200" height="50" fill="#150F26"/>
+  <text x="102" y="612" font-family="IBM Plex Mono, monospace" font-size="24" fill="#ffffff">uhmmly.cseco.co.ke</text>
+  <text x="1098" y="612" text-anchor="end" font-family="DM Sans, Segoe UI, sans-serif" font-size="22" fill="#9A93AD">Verification by Sojaly ID</text>
+</svg>

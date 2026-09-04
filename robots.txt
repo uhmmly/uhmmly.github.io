@@ -1,0 +1,4 @@
+User-Agent: *
+Allow: /
+
+Sitemap: https://uhmmly.cseco.co.ke/sitemap.xml
